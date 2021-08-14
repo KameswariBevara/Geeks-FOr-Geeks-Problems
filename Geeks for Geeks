@@ -1,0 +1,298 @@
+Start Coding - Python:
+           
+           def print_fun():
+              print("Hello World")
+
+Space Separated :
+       def print_fun():
+           print("Geeks","For","Geeks")
+
+Sep and end in Print():
+       def print_func(string1, string2):
+           print ( "Geeks" ,"For"  ,"Geeks"  , sep = '$', end = '$')
+
+
+Repititive Programming :
+                def print_fun(string,x):
+                   print(string*x)
+
+Concatenating Strings- python:
+               def print_fun(string1, string2):
+                    print (string1 + string2)
+
+
+Taking input and typecasting - Python
+
+def inPut():
+    #Take input and assign the input to a, b, c, d. Please also typecast as type() will produce wrong answer without it
+    
+    a = int(input())## a is integer
+    b = str(input())## b is string
+    c = float(input())## c is float
+    d =bool(input())## d is a boolean
+    
+    print(a, type(a))
+    print(b, type(b))
+    print(c, type(c))
+    print(d, type(d))
+
+
+
+Taking INput :
+      def inPutCat():
+    a = str(input())##complete this
+    b = str(input())##complete this
+    c = str(input())##complete this
+    print(a, b, c) ## comma is used as it automatically separates the variables by a space. 
+    ## + can also be used to concatenate but it would require manual spaces to print the 
+
+Split the input - Python :
+       def inPutS():
+            string = input()
+            s, i, f = string.split()
+            print(s + " " + str(int(i) + float(f)))
+
+
+Comments in Python :
+       def print_func():
+          #print ("Geeks Classes")
+          print ("Geeks For Geeks")
+          '''print ("Geeks Quiz")
+             print ("Geeks")
+              print ("Geeks For")
+          '''
+
+Operators in Python:
+          def do_operation(X, Y):
+    # Your code here
+              print(X+Y)
+              print(X-Y)
+              print(X*Y)
+              print(X/Y)
+              print(X**Y)
+              print(X//Y)
+
+
+Comparison Operators _ Python :
+             def comparison(a, b):
+                     print(a==b) ##do a==b
+                     print(a>b) ##do a>b
+                     print(a!=b) ##do a!=b
+                     print(a<b) ##do a<b
+
+
+Logical Operators - Python:
+              def logical(a, b):
+                      print(a and b) ## do a and b
+                      print(a or b) ## do a or b
+                      print(not a) ## do not a
+                                 
+Increments and Decreaments in Python:
+                  def do_operation(X, Y):
+    # Your code here
+                          X-=1
+                          Y+=1
+                          print (X)
+                          print (Y)
+
+Bitwise Operators - python:
+                    def bitwise(a, b, c):
+                          print(a^a)
+                          print(c^b)
+                          print(a&b)
+                          print(c| (a^a))
+                          print(~(c^b) )
+
+Is and In Operator:
+
+
+def number_present(num, Q):
+    #num is a 'list', Q is a 'int'
+    for i in range(len(num)):    #write this here - i in range(len(num_list))
+                             # see the use of 'in' in for loop
+        if (num[i] is Q): #write this here - num_list[i] is Q
+                             # see the use of 'is' as equal to
+            return True
+    return False 
+
+
+Module 2:
+  If Conditional Statements:
+               
+                 def friends_in_trouble(j_angry, s_angry):
+                          if(j_angry == s_angry) :
+                               return True
+                          else:
+                               return False
+
+
+Mark Even and Odd - Python
+                   def checkOddEven(x):
+                        if(x % 2 == 0):
+                        # Complete the statement below
+                              return True
+                        else:
+                           # Complete the statement below
+                               return False
+
+Check Status:
+
+
+def check_status(a, b, flag):
+    ##Your code here
+    if  ((flag==False and a>0 and not(b>0)) or (flag==False and b>0 and not(a>0)) or (flag==True and a<0 and b<0)):
+        return True
+    else:
+        return False
+        
+    ##Either True or False is returned
+
+
+For Loop:
+def multiplicationTable(N):## in is a membership operator that is true if something is a member of sequence
+    for i in range(1,11): ## i in range(x,y,z) means i goes from x to y-1 and increments z steps in each iteration
+        print(i * N, end=" ") ## Separating by spaces using end =" "
+
+
+For Loop 2 :
+
+def stringJumper(str):
+    for i in range(0,len(str),2): ## from 0 to length of str and skip 2
+        print(str[i], end="") ##printing character and separating characters by nothing
+
+While Loop In Python:
+# Function to print x in decreasing order
+def printInDecreasing(x):
+    # Complete the code below
+    while(x >= 0):
+        print(x,end = " ")
+        
+        # your statement below to print the number
+        # in decreasing order
+        # Note: use end=" " parameter with print to seperate numbers by space.
+        ##Output for testcases will automatically separated by a new line by the print() in driver code
+        
+        
+        
+        x -= 1
+
+
+
+Jumping Through While:
+
+# Function to print x in increasing order
+def printIncreasingPower(x):
+    ##Your code here
+    i=1
+    
+    # Loop to jump in powers of 2
+    while(i**2<=x):
+        ##Your code here
+        
+        print (i**2, end = " ")
+        
+        ##Your code here
+        i+=1
+
+
+Zero Converter:
+# Function to print x in increasing order
+def printIncreasingPower(x):
+    ##Your code here
+    i=1
+    
+    # Loop to jump in powers of 2
+    while(i**2<=x):
+        ##Your code here
+        
+        print (i**2, end = " ")
+        
+        ##Your code here
+        i+=1
+
+
+Cat and Hat:
+
+def cat_hat(str):
+  ##your code here##
+  ##You need to write complete code this time 
+  return str.count("hat")== str.count("cat")
+  '''hat= str.count("hat")
+  cat= str.count("cat")
+  if hat==cat:
+      return True
+  else:
+      return False
+'''
+    
+
+Module 3:
+ 
+Welcome :
+
+def welcomeAboard(name):
+    print ("Welcome" + " "+ name)
+
+
+Slicing In Python:
+
+def join_middle(bound_by, tag_name):
+  # complete the statement below to return the string as required
+  return bound_by[0 :bound   ] + tag_name + bound_by[bound: ]
+
+Repeatthe Strings:
+
+def combo_string(a, b):
+  
+  # your code here
+  if len(a)>=len(b):
+      short=b
+      longer=a
+  else:
+      short=a
+      longer=b
+  return short+longer+short
+
+or short,longer=(a,b) if len(a)<=len(b) else (b,a)
+
+String Functions 1:
+
+def trim(str):
+    return str.strip()     
+
+def exists(str, istr):
+    return str.find(istr) #istr is fpr index
+
+def titleIt(str):
+    return str.title()    
+
+def casesSwap(str):
+    return  str.swapcase() 
+
+
+
+Regex in Python:
+
+def numberMatcher(str):
+    pat="\d+"#write the pattern here
+    match=re.findall(pat,str) ##find all finds all the matched texts and returns a list
+    if(match): 
+        for i in match:
+            print(i, end=" ")
+    else:
+        print(-1,end="")
+
+
+Regular Expressions :
+
+def validate(str):
+    pat= '^[a-z].*\d$'
+
+##your pattern here
+    match = re.search(pat, str)
+    if(match):
+        return True
+    else:
+        return False
+
+
